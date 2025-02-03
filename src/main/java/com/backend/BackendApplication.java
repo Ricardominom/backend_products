@@ -17,7 +17,7 @@ public class BackendApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/api/v1/**") // Ruta de tu API
+				registry.addMapping("/api/v1/products/**") // Ruta de tu API
 						.allowedOrigins("https://frontend-products-xi.vercel.app") // Dominio del frontend
 						.allowedMethods("GET", "POST", "PUT", "DELETE") // Métodos permitidos
 						.allowedHeaders("*") // Encabezados permitidos
