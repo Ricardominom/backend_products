@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://backend-manager-products.vercel.app")
+@CrossOrigin(origins = "https://frontend-products-xi.vercel.app")
 @RestController
 @RequestMapping("/api/v1/products")
 public class ProductController {
