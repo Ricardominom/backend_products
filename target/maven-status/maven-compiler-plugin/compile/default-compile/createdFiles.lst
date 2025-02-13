@@ -1,0 +1,5 @@
+com\backend\BackendApplication.class
+com\backend\product\ProductRepository.class
+com\backend\product\ProductController.class
+com\backend\product\Product.class
+com\backend\product\ProductService.class
